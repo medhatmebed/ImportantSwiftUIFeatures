@@ -11,6 +11,7 @@
 		8BC4810D2B50E78D000D6221 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC4810C2B50E78D000D6221 /* ContentView.swift */; };
 		8BC4810F2B50E790000D6221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC4810E2B50E790000D6221 /* Assets.xcassets */; };
 		8BC481122B50E790000D6221 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC481112B50E790000D6221 /* Preview Assets.xcassets */; };
+		8BEF89BB2B52413000412ABD /* CustomPropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF89BA2B52413000412ABD /* CustomPropertyWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8BC4810C2B50E78D000D6221 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8BC4810E2B50E790000D6221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BC481112B50E790000D6221 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BEF89BA2B52413000412ABD /* CustomPropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPropertyWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				8BC4810A2B50E78D000D6221 /* ImportantSwiftUIFeaturesApp.swift */,
 				8BC4810C2B50E78D000D6221 /* ContentView.swift */,
+				8BEF89BA2B52413000412ABD /* CustomPropertyWrapper.swift */,
 				8BC4810E2B50E790000D6221 /* Assets.xcassets */,
 				8BC481102B50E790000D6221 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BEF89BB2B52413000412ABD /* CustomPropertyWrapper.swift in Sources */,
 				8BC4810D2B50E78D000D6221 /* ContentView.swift in Sources */,
 				8BC4810B2B50E78D000D6221 /* ImportantSwiftUIFeaturesApp.swift in Sources */,
 			);
