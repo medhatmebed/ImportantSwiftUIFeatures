@@ -11,7 +11,7 @@ import SwiftUI
 struct ImportantSwiftUIFeaturesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DownloadImageAsyncCombineEscaping()
         }
     }
 }
