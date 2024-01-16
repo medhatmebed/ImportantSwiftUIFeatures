@@ -10,6 +10,7 @@
 		8B5200452B53803F00F61275 /* MockDataServiceExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5200442B53803F00F61275 /* MockDataServiceExample.swift */; };
 		8B5200472B54DCFE00F61275 /* MVVMExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5200462B54DCFE00F61275 /* MVVMExample.swift */; };
 		8B5200492B550CC000F61275 /* DownloadImageAsyncCombineEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5200482B550CC000F61275 /* DownloadImageAsyncCombineEscaping.swift */; };
+		8B52004B2B56BE5A00F61275 /* RetainCycleInSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B52004A2B56BE5A00F61275 /* RetainCycleInSwift.swift */; };
 		8BC4810B2B50E78D000D6221 /* ImportantSwiftUIFeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC4810A2B50E78D000D6221 /* ImportantSwiftUIFeaturesApp.swift */; };
 		8BC4810D2B50E78D000D6221 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC4810C2B50E78D000D6221 /* ContentView.swift */; };
 		8BC4810F2B50E790000D6221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC4810E2B50E790000D6221 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 		8B5200442B53803F00F61275 /* MockDataServiceExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataServiceExample.swift; sourceTree = "<group>"; };
 		8B5200462B54DCFE00F61275 /* MVVMExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMExample.swift; sourceTree = "<group>"; };
 		8B5200482B550CC000F61275 /* DownloadImageAsyncCombineEscaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsyncCombineEscaping.swift; sourceTree = "<group>"; };
+		8B52004A2B56BE5A00F61275 /* RetainCycleInSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetainCycleInSwift.swift; sourceTree = "<group>"; };
 		8BC481072B50E78D000D6221 /* ImportantSwiftUIFeatures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImportantSwiftUIFeatures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC4810A2B50E78D000D6221 /* ImportantSwiftUIFeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportantSwiftUIFeaturesApp.swift; sourceTree = "<group>"; };
 		8BC4810C2B50E78D000D6221 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				8B5200442B53803F00F61275 /* MockDataServiceExample.swift */,
 				8B5200462B54DCFE00F61275 /* MVVMExample.swift */,
 				8B5200482B550CC000F61275 /* DownloadImageAsyncCombineEscaping.swift */,
+				8B52004A2B56BE5A00F61275 /* RetainCycleInSwift.swift */,
 				8BC4810E2B50E790000D6221 /* Assets.xcassets */,
 				8BC481102B50E790000D6221 /* Preview Content */,
 			);
@@ -152,6 +155,7 @@
 				8B5200452B53803F00F61275 /* MockDataServiceExample.swift in Sources */,
 				8B5200472B54DCFE00F61275 /* MVVMExample.swift in Sources */,
 				8BEF89BB2B52413000412ABD /* CustomPropertyWrapper.swift in Sources */,
+				8B52004B2B56BE5A00F61275 /* RetainCycleInSwift.swift in Sources */,
 				8BC4810D2B50E78D000D6221 /* ContentView.swift in Sources */,
 				8B5200492B550CC000F61275 /* DownloadImageAsyncCombineEscaping.swift in Sources */,
 				8BC4810B2B50E78D000D6221 /* ImportantSwiftUIFeaturesApp.swift in Sources */,
