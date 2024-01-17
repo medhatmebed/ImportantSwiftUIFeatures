@@ -45,9 +45,6 @@ class DownloadImageAsyncImageLoader {
             throw error
         }
     }
-    
-    
-    
 }
 
 class DownloadImageAsyncCombineEscapingViewModel: ObservableObject {
