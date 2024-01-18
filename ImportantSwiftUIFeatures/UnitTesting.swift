@@ -36,7 +36,7 @@ class MockDataServiceUnitTesing: DataServiceUnitTesting {
 }
 
 // Class using the data service
-class MyClass {
+class MyClassViewModel {
     var dataService: DataServiceUnitTesting
 
     init(dataService: DataServiceUnitTesting) {
