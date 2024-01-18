@@ -7,6 +7,11 @@
 
 import SwiftUI
 
+enum CredentialErrors: Error {
+    case badUserName
+    case badPassword
+}
+
 class DoCatchTryThrowsDataService {
     
     let isActive = true
@@ -45,6 +50,18 @@ class DoCatchTryThrowsDataService {
         }
     }
     
+    func validateCredentials(userName: String, password: String) throws {
+        
+        if userName.count < 4 {
+            throw CredentialErrors.badUserName
+        }
+        /// here we're checking if the password contains at least one decimal character
+        if (password.rangeOfCharacter(from: NSCharacterSet.decimalDigits) == nil) {
+            throw CredentialErrors.badPassword
+        }
+        
+    }
+    
 }
 
 class DoCatchTryThrowsViewModel: ObservableObject {
@@ -71,7 +88,7 @@ class DoCatchTryThrowsViewModel: ObservableObject {
         }
          */
         do {
-            /// notice here we used try and try? 
+            /// notice here we used try and try?
 //            let newTitle = try manager.getTitle3()
 //            self.text = newTitle
             if let newTitle = try? manager.getTitle3() {
@@ -82,6 +99,19 @@ class DoCatchTryThrowsViewModel: ObservableObject {
             
         } catch {
             self.text = error.localizedDescription
+        }
+        
+        do {
+            try manager.validateCredentials(userName: "medhat", password: "medhat")
+        } catch {
+            switch error {
+            case CredentialErrors.badUserName:
+                print("user name too short")
+            case CredentialErrors.badPassword:
+                print("Passord doesn't contain decimal number")
+            default:
+                break
+            }
         }
         
     }
