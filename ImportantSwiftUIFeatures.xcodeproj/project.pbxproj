@@ -14,6 +14,7 @@
 		8B52004D2B57B5C200F61275 /* UnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B52004C2B57B5C200F61275 /* UnitTesting.swift */; };
 		8B52005B2B598D9700F61275 /* DoCatchTryThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B52005A2B598D9700F61275 /* DoCatchTryThrows.swift */; };
 		8B52005E2B59AD4A00F61275 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B52005D2B59AD4A00F61275 /* Enums.swift */; };
+		8B5200612B5A71B400F61275 /* InitializerInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5200602B5A71B400F61275 /* InitializerInjection.swift */; };
 		8BC4810B2B50E78D000D6221 /* ImportantSwiftUIFeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC4810A2B50E78D000D6221 /* ImportantSwiftUIFeaturesApp.swift */; };
 		8BC4810D2B50E78D000D6221 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC4810C2B50E78D000D6221 /* ContentView.swift */; };
 		8BC4810F2B50E790000D6221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC4810E2B50E790000D6221 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 		8B52004C2B57B5C200F61275 /* UnitTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTesting.swift; sourceTree = "<group>"; };
 		8B52005A2B598D9700F61275 /* DoCatchTryThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrows.swift; sourceTree = "<group>"; };
 		8B52005D2B59AD4A00F61275 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		8B5200602B5A71B400F61275 /* InitializerInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerInjection.swift; sourceTree = "<group>"; };
 		8BC481072B50E78D000D6221 /* ImportantSwiftUIFeatures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImportantSwiftUIFeatures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC4810A2B50E78D000D6221 /* ImportantSwiftUIFeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportantSwiftUIFeaturesApp.swift; sourceTree = "<group>"; };
 		8BC4810C2B50E78D000D6221 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,8 +62,17 @@
 			isa = PBXGroup;
 			children = (
 				8B52005D2B59AD4A00F61275 /* Enums.swift */,
+				8B52005F2B5A718B00F61275 /* Dependency Injection */,
 			);
 			path = "Swift Features";
+			sourceTree = "<group>";
+		};
+		8B52005F2B5A718B00F61275 /* Dependency Injection */ = {
+			isa = PBXGroup;
+			children = (
+				8B5200602B5A71B400F61275 /* InitializerInjection.swift */,
+			);
+			path = "Dependency Injection";
 			sourceTree = "<group>";
 		};
 		8BC480FE2B50E78D000D6221 = {
@@ -177,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B5200612B5A71B400F61275 /* InitializerInjection.swift in Sources */,
 				8B5200452B53803F00F61275 /* MockDataServiceExample.swift in Sources */,
 				8B5200472B54DCFE00F61275 /* MVVMExample.swift in Sources */,
 				8B52005E2B59AD4A00F61275 /* Enums.swift in Sources */,

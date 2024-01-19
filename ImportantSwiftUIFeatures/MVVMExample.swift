@@ -45,7 +45,6 @@ final class MVVMExampleViewModel: ObservableObject {
 
 
 struct MVVMExample: View {
-    
     @StateObject private var viewModel = MVVMExampleViewModel()
     
     
