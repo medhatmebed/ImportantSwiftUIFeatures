@@ -16,6 +16,7 @@
 		8B52005E2B59AD4A00F61275 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B52005D2B59AD4A00F61275 /* Enums.swift */; };
 		8B5200612B5A71B400F61275 /* InitializerInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5200602B5A71B400F61275 /* InitializerInjection.swift */; };
 		8B5200632B5A80DE00F61275 /* DependencyInjectionContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5200622B5A80DE00F61275 /* DependencyInjectionContainer.swift */; };
+		8B5200662B5AE06800F61275 /* InjectPropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5200652B5AE06800F61275 /* InjectPropertyWrapper.swift */; };
 		8BC4810B2B50E78D000D6221 /* ImportantSwiftUIFeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC4810A2B50E78D000D6221 /* ImportantSwiftUIFeaturesApp.swift */; };
 		8BC4810D2B50E78D000D6221 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC4810C2B50E78D000D6221 /* ContentView.swift */; };
 		8BC4810F2B50E790000D6221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC4810E2B50E790000D6221 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 		8B52005D2B59AD4A00F61275 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		8B5200602B5A71B400F61275 /* InitializerInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerInjection.swift; sourceTree = "<group>"; };
 		8B5200622B5A80DE00F61275 /* DependencyInjectionContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionContainer.swift; sourceTree = "<group>"; };
+		8B5200652B5AE06800F61275 /* InjectPropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectPropertyWrapper.swift; sourceTree = "<group>"; };
 		8BC481072B50E78D000D6221 /* ImportantSwiftUIFeatures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImportantSwiftUIFeatures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC4810A2B50E78D000D6221 /* ImportantSwiftUIFeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportantSwiftUIFeaturesApp.swift; sourceTree = "<group>"; };
 		8BC4810C2B50E78D000D6221 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,8 +76,17 @@
 			children = (
 				8B5200602B5A71B400F61275 /* InitializerInjection.swift */,
 				8B5200622B5A80DE00F61275 /* DependencyInjectionContainer.swift */,
+				8B5200642B5AE03A00F61275 /* @Inject Property Wrapper */,
 			);
 			path = "Dependency Injection";
+			sourceTree = "<group>";
+		};
+		8B5200642B5AE03A00F61275 /* @Inject Property Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				8B5200652B5AE06800F61275 /* InjectPropertyWrapper.swift */,
+			);
+			path = "@Inject Property Wrapper";
 			sourceTree = "<group>";
 		};
 		8BC480FE2B50E78D000D6221 = {
@@ -200,6 +211,7 @@
 				8B5200632B5A80DE00F61275 /* DependencyInjectionContainer.swift in Sources */,
 				8B52004B2B56BE5A00F61275 /* RetainCycleInSwift.swift in Sources */,
 				8BC4810D2B50E78D000D6221 /* ContentView.swift in Sources */,
+				8B5200662B5AE06800F61275 /* InjectPropertyWrapper.swift in Sources */,
 				8B52005B2B598D9700F61275 /* DoCatchTryThrows.swift in Sources */,
 				8B5200492B550CC000F61275 /* DownloadImageAsyncCombineEscaping.swift in Sources */,
 				8BC4810B2B50E78D000D6221 /* ImportantSwiftUIFeaturesApp.swift in Sources */,
