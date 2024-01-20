@@ -50,7 +50,7 @@ class MyClassViewModel {
     }
 }
 
-//// Unit test
+/// Unit test
 //class MyClassTests: XCTestCase {
 //    func testDoSomethingSuccess() {
 //        let mockDataService = MockDataServiceUnitTesing()
