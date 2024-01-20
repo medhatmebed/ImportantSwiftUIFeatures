@@ -8,9 +8,6 @@
 import SwiftUI
 import Combine
 
-import SwiftUI
-import Combine
-
 // Model
 struct Post: Codable {
     let userId: Int

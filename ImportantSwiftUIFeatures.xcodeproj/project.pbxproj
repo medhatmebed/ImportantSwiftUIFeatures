@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8B2922052B5BB49400110FB6 /* CustomViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2922042B5BB49400110FB6 /* CustomViewModifier.swift */; };
+		8B2922072B5C214900110FB6 /* DependencyInjectionSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2922062B5C214900110FB6 /* DependencyInjectionSwiftUI.swift */; };
 		8B5200452B53803F00F61275 /* MockDataServiceExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5200442B53803F00F61275 /* MockDataServiceExample.swift */; };
 		8B5200472B54DCFE00F61275 /* MVVMExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5200462B54DCFE00F61275 /* MVVMExample.swift */; };
 		8B5200492B550CC000F61275 /* DownloadImageAsyncCombineEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5200482B550CC000F61275 /* DownloadImageAsyncCombineEscaping.swift */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		8B2922042B5BB49400110FB6 /* CustomViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifier.swift; sourceTree = "<group>"; };
+		8B2922062B5C214900110FB6 /* DependencyInjectionSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionSwiftUI.swift; sourceTree = "<group>"; };
 		8B5200442B53803F00F61275 /* MockDataServiceExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataServiceExample.swift; sourceTree = "<group>"; };
 		8B5200462B54DCFE00F61275 /* MVVMExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMExample.swift; sourceTree = "<group>"; };
 		8B5200482B550CC000F61275 /* DownloadImageAsyncCombineEscaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsyncCombineEscaping.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				8B5200602B5A71B400F61275 /* InitializerInjection.swift */,
+				8B2922062B5C214900110FB6 /* DependencyInjectionSwiftUI.swift */,
 				8B5200622B5A80DE00F61275 /* DependencyInjectionContainer.swift */,
 				8B5200642B5AE03A00F61275 /* @Inject Property Wrapper */,
 			);
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B2922072B5C214900110FB6 /* DependencyInjectionSwiftUI.swift in Sources */,
 				8B5200612B5A71B400F61275 /* InitializerInjection.swift in Sources */,
 				8B5200682B5B0BBF00F61275 /* UsingTask.swift in Sources */,
 				8B5200452B53803F00F61275 /* MockDataServiceExample.swift in Sources */,
