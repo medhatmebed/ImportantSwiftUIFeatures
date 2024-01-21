@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8B2922052B5BB49400110FB6 /* CustomViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2922042B5BB49400110FB6 /* CustomViewModifier.swift */; };
 		8B2922072B5C214900110FB6 /* DependencyInjectionSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2922062B5C214900110FB6 /* DependencyInjectionSwiftUI.swift */; };
+		8B2922092B5C253500110FB6 /* AdvancedCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2922082B5C253500110FB6 /* AdvancedCombine.swift */; };
 		8B5200452B53803F00F61275 /* MockDataServiceExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5200442B53803F00F61275 /* MockDataServiceExample.swift */; };
 		8B5200472B54DCFE00F61275 /* MVVMExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5200462B54DCFE00F61275 /* MVVMExample.swift */; };
 		8B5200492B550CC000F61275 /* DownloadImageAsyncCombineEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5200482B550CC000F61275 /* DownloadImageAsyncCombineEscaping.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		8B2922042B5BB49400110FB6 /* CustomViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifier.swift; sourceTree = "<group>"; };
 		8B2922062B5C214900110FB6 /* DependencyInjectionSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionSwiftUI.swift; sourceTree = "<group>"; };
+		8B2922082B5C253500110FB6 /* AdvancedCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCombine.swift; sourceTree = "<group>"; };
 		8B5200442B53803F00F61275 /* MockDataServiceExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataServiceExample.swift; sourceTree = "<group>"; };
 		8B5200462B54DCFE00F61275 /* MVVMExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMExample.swift; sourceTree = "<group>"; };
 		8B5200482B550CC000F61275 /* DownloadImageAsyncCombineEscaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsyncCombineEscaping.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				8B52005C2B59AD3000F61275 /* Swift Features */,
 				8B5200592B59146600F61275 /* Concurrency */,
 				8BC4810C2B50E78D000D6221 /* ContentView.swift */,
+				8B2922082B5C253500110FB6 /* AdvancedCombine.swift */,
 				8BEF89BA2B52413000412ABD /* CustomPropertyWrapper.swift */,
 				8B2922042B5BB49400110FB6 /* CustomViewModifier.swift */,
 				8B5200442B53803F00F61275 /* MockDataServiceExample.swift */,
@@ -227,6 +230,7 @@
 				8B52005B2B598D9700F61275 /* DoCatchTryThrows.swift in Sources */,
 				8B5200492B550CC000F61275 /* DownloadImageAsyncCombineEscaping.swift in Sources */,
 				8BC4810B2B50E78D000D6221 /* ImportantSwiftUIFeaturesApp.swift in Sources */,
+				8B2922092B5C253500110FB6 /* AdvancedCombine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
