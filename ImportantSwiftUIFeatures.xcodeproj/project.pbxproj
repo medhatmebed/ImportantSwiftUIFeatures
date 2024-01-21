@@ -10,6 +10,7 @@
 		8B2922052B5BB49400110FB6 /* CustomViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2922042B5BB49400110FB6 /* CustomViewModifier.swift */; };
 		8B2922072B5C214900110FB6 /* DependencyInjectionSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2922062B5C214900110FB6 /* DependencyInjectionSwiftUI.swift */; };
 		8B2922092B5C253500110FB6 /* AdvancedCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2922082B5C253500110FB6 /* AdvancedCombine.swift */; };
+		8B29220B2B5D79F100110FB6 /* ViewBuilderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29220A2B5D79F100110FB6 /* ViewBuilderExample.swift */; };
 		8B5200452B53803F00F61275 /* MockDataServiceExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5200442B53803F00F61275 /* MockDataServiceExample.swift */; };
 		8B5200472B54DCFE00F61275 /* MVVMExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5200462B54DCFE00F61275 /* MVVMExample.swift */; };
 		8B5200492B550CC000F61275 /* DownloadImageAsyncCombineEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5200482B550CC000F61275 /* DownloadImageAsyncCombineEscaping.swift */; };
@@ -32,6 +33,7 @@
 		8B2922042B5BB49400110FB6 /* CustomViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifier.swift; sourceTree = "<group>"; };
 		8B2922062B5C214900110FB6 /* DependencyInjectionSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionSwiftUI.swift; sourceTree = "<group>"; };
 		8B2922082B5C253500110FB6 /* AdvancedCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCombine.swift; sourceTree = "<group>"; };
+		8B29220A2B5D79F100110FB6 /* ViewBuilderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderExample.swift; sourceTree = "<group>"; };
 		8B5200442B53803F00F61275 /* MockDataServiceExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataServiceExample.swift; sourceTree = "<group>"; };
 		8B5200462B54DCFE00F61275 /* MVVMExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMExample.swift; sourceTree = "<group>"; };
 		8B5200482B550CC000F61275 /* DownloadImageAsyncCombineEscaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsyncCombineEscaping.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				8BC4810C2B50E78D000D6221 /* ContentView.swift */,
 				8B2922082B5C253500110FB6 /* AdvancedCombine.swift */,
 				8BEF89BA2B52413000412ABD /* CustomPropertyWrapper.swift */,
+				8B29220A2B5D79F100110FB6 /* ViewBuilderExample.swift */,
 				8B2922042B5BB49400110FB6 /* CustomViewModifier.swift */,
 				8B5200442B53803F00F61275 /* MockDataServiceExample.swift */,
 				8B5200462B54DCFE00F61275 /* MVVMExample.swift */,
@@ -221,6 +224,7 @@
 				8B5200472B54DCFE00F61275 /* MVVMExample.swift in Sources */,
 				8B52005E2B59AD4A00F61275 /* Enums.swift in Sources */,
 				8B52004D2B57B5C200F61275 /* UnitTesting.swift in Sources */,
+				8B29220B2B5D79F100110FB6 /* ViewBuilderExample.swift in Sources */,
 				8BEF89BB2B52413000412ABD /* CustomPropertyWrapper.swift in Sources */,
 				8B5200632B5A80DE00F61275 /* DependencyInjectionContainer.swift in Sources */,
 				8B52004B2B56BE5A00F61275 /* RetainCycleInSwift.swift in Sources */,
