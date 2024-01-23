@@ -28,6 +28,7 @@
 		8BC4810F2B50E790000D6221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC4810E2B50E790000D6221 /* Assets.xcassets */; };
 		8BC481122B50E790000D6221 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC481112B50E790000D6221 /* Preview Assets.xcassets */; };
 		8BEF89BB2B52413000412ABD /* CustomPropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF89BA2B52413000412ABD /* CustomPropertyWrapper.swift */; };
+		8BF0F6EB2B6027F00084ABEB /* WithCheckedContinuation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF0F6EA2B6027F00084ABEB /* WithCheckedContinuation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		8BC4810E2B50E790000D6221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BC481112B50E790000D6221 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8BEF89BA2B52413000412ABD /* CustomPropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPropertyWrapper.swift; sourceTree = "<group>"; };
+		8BF0F6EA2B6027F00084ABEB /* WithCheckedContinuation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithCheckedContinuation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				8BEF89BA2B52413000412ABD /* CustomPropertyWrapper.swift */,
 				8B29220A2B5D79F100110FB6 /* ViewBuilderExample.swift */,
 				8B29220E2B5E700600110FB6 /* PreferenceKeyExample.swift */,
+				8BF0F6EA2B6027F00084ABEB /* WithCheckedContinuation.swift */,
 				8B2922042B5BB49400110FB6 /* CustomViewModifier.swift */,
 				8B5200442B53803F00F61275 /* MockDataServiceExample.swift */,
 				8B5200462B54DCFE00F61275 /* MVVMExample.swift */,
@@ -222,6 +225,7 @@
 			files = (
 				8B2922072B5C214900110FB6 /* DependencyInjectionSwiftUI.swift in Sources */,
 				8B5200612B5A71B400F61275 /* InitializerInjection.swift in Sources */,
+				8BF0F6EB2B6027F00084ABEB /* WithCheckedContinuation.swift in Sources */,
 				8B5200682B5B0BBF00F61275 /* UsingTask.swift in Sources */,
 				8B5200452B53803F00F61275 /* MockDataServiceExample.swift in Sources */,
 				8B5200472B54DCFE00F61275 /* MVVMExample.swift in Sources */,
