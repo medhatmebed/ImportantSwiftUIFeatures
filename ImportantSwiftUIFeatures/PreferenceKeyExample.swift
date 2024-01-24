@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-/// we use preferenceKeys to pass data from chlid view to parent views
+/// we use preferenceKeys to pass data from child view to parent views
 ///
 struct PreferenceKeyExample: View {
     
@@ -19,7 +19,7 @@ struct PreferenceKeyExample: View {
                 SecondaryScreen(text: text)
                     .navigationTitle("Navigation Title")
                 /// in this example we use .customTitle as view modifier
-                  //  .customTitle("Hello prefernce keys")
+                  //  .customTitle("Hello preference keys")
             }
         }
         .onPreferenceChange(CustomTitlePreferenceKey.self, perform: { value in
@@ -46,7 +46,7 @@ struct SecondaryScreen: View {
                 getDataFromDatabase()
             }
         /// notice here we can pass data from child view to the parent view 
-            .customTitle("Hello prefernce keys from child view")
+            .customTitle("Hello preference keys from child view")
         //    .customTitle(newValue)
     }
     
