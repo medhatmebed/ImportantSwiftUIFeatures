@@ -7,10 +7,11 @@
 
 import SwiftUI
 
-@propertyWrapper 
+/// property wrapper is a feature for SwiftUI that adds new behavior to the properties
+@propertyWrapper
 struct Trimmed {
   private var value: String
-
+/// inorder to create property wrapper you have to implement wrappedValue
   var wrappedValue: String {
     get { value.trimmingCharacters(in: .whitespacesAndNewlines) }
     set { value = newValue }
@@ -22,7 +23,7 @@ struct Trimmed {
 }
 
 struct CustomPropertyWrapper: View {
-    
+    /// we can see here that @Trimmed property wrapper added a new bahaviour to the name property
   @Trimmed var name: String = "   John Doe   "
    
 
