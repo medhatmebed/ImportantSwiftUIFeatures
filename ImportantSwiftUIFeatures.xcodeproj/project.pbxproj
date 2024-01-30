@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8B20EBFA2B673962003EC119 /* EnvironmentObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B20EBF92B673962003EC119 /* EnvironmentObjectExample.swift */; };
+		8B20EBFC2B685DB0003EC119 /* SOLIDprinciples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B20EBFB2B685DB0003EC119 /* SOLIDprinciples.swift */; };
 		8B2922052B5BB49400110FB6 /* CustomViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2922042B5BB49400110FB6 /* CustomViewModifier.swift */; };
 		8B2922072B5C214900110FB6 /* DependencyInjectionSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2922062B5C214900110FB6 /* DependencyInjectionSwiftUI.swift */; };
 		8B2922092B5C253500110FB6 /* AdvancedCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2922082B5C253500110FB6 /* AdvancedCombine.swift */; };
@@ -34,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		8B20EBF92B673962003EC119 /* EnvironmentObjectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectExample.swift; sourceTree = "<group>"; };
+		8B20EBFB2B685DB0003EC119 /* SOLIDprinciples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOLIDprinciples.swift; sourceTree = "<group>"; };
 		8B2922042B5BB49400110FB6 /* CustomViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifier.swift; sourceTree = "<group>"; };
 		8B2922062B5C214900110FB6 /* DependencyInjectionSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionSwiftUI.swift; sourceTree = "<group>"; };
 		8B2922082B5C253500110FB6 /* AdvancedCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCombine.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				8B52005D2B59AD4A00F61275 /* Enums.swift */,
+				8B20EBFB2B685DB0003EC119 /* SOLIDprinciples.swift */,
 				8B52005F2B5A718B00F61275 /* Dependency Injection */,
 			);
 			path = "Swift Features";
@@ -234,6 +237,7 @@
 				8B5200472B54DCFE00F61275 /* MVVMExample.swift in Sources */,
 				8B52005E2B59AD4A00F61275 /* Enums.swift in Sources */,
 				8B52004D2B57B5C200F61275 /* UnitTesting.swift in Sources */,
+				8B20EBFC2B685DB0003EC119 /* SOLIDprinciples.swift in Sources */,
 				8B29220B2B5D79F100110FB6 /* ViewBuilderExample.swift in Sources */,
 				8BEF89BB2B52413000412ABD /* CustomPropertyWrapper.swift in Sources */,
 				8B5200632B5A80DE00F61275 /* DependencyInjectionContainer.swift in Sources */,
