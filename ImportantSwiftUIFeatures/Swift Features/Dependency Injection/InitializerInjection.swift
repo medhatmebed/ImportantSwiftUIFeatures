@@ -9,7 +9,6 @@ import Foundation
 
 /// Dependency Injection is a 25$ term for 5 cent concept
 /// Dependency Injection is a software design pattern that allows you to use a technique in which an object receives other objects that it depends on. These other objects are called dependencies.
-///
 
 protocol UserServiceProtocol {
     func fetchUsers()
