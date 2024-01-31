@@ -33,7 +33,7 @@ class DoCatchTryThrowsDataService {
     }
     /// using throws keyword meaning that this function might throw an error
     /// and when you call this function you have to call it within do catch block and using "try"
-    /// there's a difference between try and try? "try" meaning that you guarantee the return type and if it throws and error you will catch it. but if you use "try?" meanin that you don't care about the error and the return type with be an optional type
+    /// there's a difference between try and try? "try" meaning that you guarantee the return type and if it throws and error you will catch it. but if you use "try?" meaning that you don't care about the error and the return type with be an optional type
     func getTitle3() throws -> String {
         if isActive {
             return "New Text!!!"

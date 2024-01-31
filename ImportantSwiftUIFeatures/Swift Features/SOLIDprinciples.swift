@@ -225,7 +225,7 @@ let payment = Payment(debitCardPayment: paymentMethod)
 /// but the problem here is when we use payment we don't know which payment method is in
 //payment.debitCardPayment?.execute(amount: 100)
 
-/// so the solution is to create an abstraction level "PaymentMethod" 
+/// so the solution is to create an abstraction level "PaymentMethod"
 struct PaymentDIP {
     let payment: PaymentMethod
     
