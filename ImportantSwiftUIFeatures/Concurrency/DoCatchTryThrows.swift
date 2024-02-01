@@ -107,7 +107,7 @@ class DoCatchTryThrowsViewModel: ObservableObject {
             case CredentialErrors.badUserName:
                 print("user name too short")
             case CredentialErrors.badPassword:
-                print("Passord doesn't contain decimal number")
+                print("Password doesn't contain decimal number")
             default:
                 break
             }
