@@ -74,7 +74,7 @@ struct UsingTask: View {
             }
         }
         /// using Task is to execute asynchronous code.. you can you .task or Task
-        /// if you use Task then you have to handkle the cancelation of the task but if you use .task then it's automatically cancel the task after the view disappear
+        /// if you use Task then you have to handle the cancelation of the task but if you use .task then it's automatically cancel the task after the view disappear
         .task {
             await viewModel.fetchImage()
         }
