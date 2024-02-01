@@ -59,7 +59,6 @@ class DoCatchTryThrowsDataService {
         if (password.rangeOfCharacter(from: NSCharacterSet.decimalDigits) == nil) {
             throw CredentialErrors.badPassword
         }
-        
     }
     
 }
