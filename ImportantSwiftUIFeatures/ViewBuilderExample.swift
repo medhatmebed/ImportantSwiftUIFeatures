@@ -93,7 +93,7 @@ struct LocalViewBuilder: View {
     private var viewOne: some View {
         Text("One!")
     }
-    ///viewbuilders is often used to define functions or properties that return multiple views, making code more concise and readable.
+    ///view-builders is often used to define functions or properties that return multiple views, making code more concise and readable.
     @ViewBuilder private var viewTwo: some View {
        // VStack {
             Text("Two")
