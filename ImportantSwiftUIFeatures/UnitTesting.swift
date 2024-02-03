@@ -22,7 +22,7 @@ class RealDataService: DataServiceUnitTesting {
 }
 
 // Mock data service implementation
-class MockDataServiceUnitTesing: DataServiceUnitTesting {
+class MockDataServiceUnitTesting: DataServiceUnitTesting {
     var dataToReturn: Data?
     var errorToReturn: Error?
 
@@ -53,7 +53,7 @@ class MyClassViewModel {
 /// Unit test
 //class MyClassTests: XCTestCase {
 //    func testDoSomethingSuccess() {
-//        let mockDataService = MockDataServiceUnitTesing()
+//        let mockDataService = MockDataServiceUnitTesting()
 //        mockDataService.dataToReturn = // ... some test data
 //
 //        let myClass = MyClass(dataService: mockDataService)
