@@ -23,7 +23,7 @@ struct Trimmed {
 }
 
 struct CustomPropertyWrapper: View {
-    /// we can see here that @Trimmed property wrapper added a new bahaviour to the name property
+    /// we can see here that @Trimmed property wrapper added a new behavior to the name property
   @Trimmed var name: String = "   John Doe   "
    
 
